@@ -12,6 +12,7 @@ html {
 }
 
 section {
+
     background: url(assets/bg.jpg);
     height: 100vh;
     background-size: cover;
@@ -21,7 +22,7 @@ section {
 }
 
 section .container {
-    width: 650px;
+    width: 500px;
     background: #332a224e;
     padding: 30px 25px;
     backdrop-filter: blur(2px);
@@ -33,31 +34,32 @@ section .container {
 section .top_sec {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 40px;
-    margin-bottom: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
     border-bottom: 2px solid #d7d7d74e;
 
 }
 
 section .top_sec select {
-    width: 250px;
+    width: 200px;
     border-radius: 10px;
     outline: none;
     background: #a54f3a;
     color: white;
     padding: 3px 10px;
-    font-size: 22px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
 section .top_sec h3,
 section .top_sec h4 {
-    font-size: 26px;
+    font-size: 20px;
     color: white;
 }
 
 section .top_sec .date {
-    width: 250px;
+    width: 200px;
+    text-align: center;
 }
 
 section .prayer {
@@ -68,7 +70,7 @@ section .prayer {
     background: #c0583e75;
     margin-bottom: 25px;
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     border-radius: 10px;
     border: px solid #d7d7d74e;
 }
