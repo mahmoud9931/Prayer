@@ -74,3 +74,90 @@ section .prayer {
     border-radius: 10px;
     border: px solid #d7d7d74e;
 }
+
+
+
+/* ========== Tablet & Medium Screens ========== */
+@media (min-width: 769px) and (max-width: 1024px) {
+    section {
+        justify-content: flex-start;
+        padding: 30px;
+    }
+
+    section .container {
+        width: 420px;
+        margin-right: 5%;
+        padding: 30px 25px;
+    }
+
+    section .top_sec {
+        gap: 10px;
+    }
+
+    section .top_sec select {
+        width: 180px;
+        font-size: 17px;
+    }
+
+    section .top_sec h3,
+    section .top_sec h4 {
+        font-size: 19px;
+    }
+
+    section .prayer {
+        padding: 8px 20px;
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+/* ========== Responsive (Mobile) ========== */
+@media (max-width: 768px) {
+    section {
+        justify-content: center;
+        padding: 20px;
+    }
+
+    section .container {
+        width: 100%;
+        max-width: 400px;
+        margin-right: 0;
+        padding: 25px 20px;
+    }
+
+    section .top_sec {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    section .top_sec select {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    section .top_sec h3,
+    section .top_sec h4 {
+        font-size: 18px;
+    }
+
+    section .prayer {
+        padding: 10px 15px;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+}
+
+/* ========== Small Mobile ========== */
+@media (max-width: 480px) {
+    section .container {
+        border-radius: 15px;
+    }
+
+    section .prayer {
+        font-size: 15px;
+    }
+}
